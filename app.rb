@@ -1,4 +1,8 @@
 class Application < Sinatra::Base
-  # Write your code here!
+ class Application
+  get '/' do
+    "Hello World"
+  end
+end
 
 end
